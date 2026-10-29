@@ -1,0 +1,20 @@
+# Office data lives in ../Data (or next to the .exe), never in this repository.
+Data/
+*.db
+*.db-journal
+*.lock
+*.log
+window_settings.json
+document_types.json
+.env
+
+# Build / IDE
+__pycache__/
+*.pyc
+build/
+dist/
+*.exe
+.idea/
+.vscode/
+.venv/
+venv/
